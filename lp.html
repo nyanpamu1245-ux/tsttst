@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法人税 節税対策コンサルティング | 経営者のための事業投資・財務戦略サポート</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                            dark: '#0f172a'
+                        },
+                        corporate: {
+                            50: '#eff6ff',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            900: '#1e3a8a'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans JP', 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-corporate-600 selection:text-white">
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-corporate-600 to-corporate-900 flex items-center justify-center text-white font-bold text-xl shadow-md">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <div>
+                    <span class="text-sm sm:text-base font-bold tracking-tight text-slate-900 block leading-tight">法人税 節税対策コンサルティング</span>
+                    <span class="text-[11px] text-corporate-600 font-semibold block tracking-wide">経営者のための事業投資・財務戦略サポート</span>
+                </div>
+            </div>
+            <!-- Desktop Nav Links with reliable scroll targets -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#solutions" class="text-sm font-medium text-slate-600 hover:text-corporate-600 transition">基本の15大対策</a>
+                <a href="#products" class="text-sm font-medium text-slate-600 hover:text-corporate-600 transition">主力プロダクト・事業投資</a>
+                <a href="#benefits" class="text-sm font-medium text-slate-600 hover:text-corporate-600 transition">選ばれる理由</a>
+                <a href="#flow" class="text-sm font-medium text-slate-600 hover:text-corporate-600 transition">導入の流れ</a>
+                <a href="#contact" class="bg-corporate-600 hover:bg-corporate-700 text-white font-semibold px-5 py-2.5 rounded-xl shadow-md shadow-corporate-600/20 transition transform hover:-translate-y-0.5 text-sm">
+                    無料相談を申し込む
+                </a>
+            </div>
+            <!-- Mobile Menu Trigger -->
+            <button id="menuBtn" onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-600 hover:text-slate-900">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+            </button>
+        </div>
+        <!-- Mobile Navigation Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-5 space-y-3">
+            <a href="#solutions" onclick="toggleMobileMenu()" class="block text-sm font-medium text-slate-600 hover:text-corporate-600 py-1">基本の15大対策</a>
+            <a href="#products" onclick="toggleMobileMenu()" class="block text-sm font-medium text-slate-600 hover:text-corporate-600 py-1">主力プロダクト・事業投資</a>
+            <a href="#benefits" onclick="toggleMobileMenu()" class="block text-sm font-medium text-slate-600 hover:text-corporate-600 py-1">選ばれる理由</a>
+            <a href="#flow" onclick="toggleMobileMenu()" class="block text-sm font-medium text-slate-600 hover:text-corporate-600 py-1">導入の流れ</a>
+            <a href="#contact" onclick="toggleMobileMenu()" class="block w-full text-center bg-corporate-600 text-white font-semibold py-2.5 rounded-xl mt-2 text-sm">無料相談を申し込む</a>
+        </div>
+    </header>
+
+    <section class="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-corporate-900 text-white py-20 lg:py-28">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="inline-flex items-center space-x-2 bg-blue-500/10 border border-blue-400/20 text-blue-300 text-xs font-medium px-3.5 py-1.5 rounded-full">
+                        <span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+                        <span>決算期の利益圧縮・最新ITデバイス＆事業投資に対応</span>
+                    </span>
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
+                        法人税の適正化から、<br/>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-300">次世代の事業投資・資産形成へ。</span>
+                    </h1>
+                    <p class="text-slate-300 text-base sm:text-lg leading-relaxed font-light">
+                        「まずはどのような節税手段があるか全体像を知りたい」という経営者様へ、王道の15大対策を整理してご紹介。その上で、弊社が厳選するAI Beaconなどの実効性の高い事業投資スキームにより、確実な利益圧縮と財務基盤の強化を両立します。
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center space-y-3 sm:space-y-0 sm:space-x-4 pt-4">
+                        <a href="#products" class="bg-blue-600 hover:bg-blue-500 text-white text-center font-semibold px-8 py-3.5 rounded-xl shadow-lg shadow-blue-600/30 transition transform hover:-translate-y-0.5 text-base">
+                            注目の主力プロダクトを見る
+                        </a>
+                        <a href="#solutions" class="bg-white/10 hover:bg-white/15 border border-white/20 text-white text-center font-medium px-6 py-3.5 rounded-xl transition text-base">
+                            基本の15大節税対策を確認する
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:col-span-5">
+                    <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-white/10 bg-slate-800">
+                        <!-- Clean, fully framed Japanese office meeting image without face cropping -->
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="日本のビジネスチームミーティング" class="w-full h-80 object-cover opacity-90" onerror="this.src='https://placehold.co/600x400/1e3a8a/ffffff?text=Japanese+Business+Meeting'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent"></div>
+                        <div class="absolute bottom-5 left-5 right-5 p-4 bg-slate-900/90 backdrop-blur-md rounded-2xl border border-white/10">
+                            <p class="text-[11px] text-blue-400 font-bold uppercase tracking-wider">法人税・財務戦略コンサルティング</p>
+                            <p class="text-xs sm:text-sm font-medium text-white mt-0.5">累計1,200社以上の法人財務サポート実績</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
+                <span class="bg-slate-100 text-slate-700 text-xs font-bold px-3 py-1 rounded-full border border-slate-200">BASIC FOUNDATION</span>
+                <h2 class="text-3xl font-bold text-slate-900">まずは全体像を知る：法人税の節税対策【15選】</h2>
+                <p class="text-slate-600 text-sm sm:text-base">
+                    法人税の負担を軽減するためには、各種制度を正しく理解し、自社に合った手法を選ぶことが重要です。まずは王道の15大対策をご紹介します。
+                </p>
+            </div>
+
+            <!-- Grid of 15 Methods with clean small thumbnails and no individual CTA buttons -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- 1 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">01</span>
+                            <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-2 py-0.5 rounded">効果：高</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=600&q=80" alt="役員報酬の適正化" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">役員報酬の適正化</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">定期同額給与の要件を守りつつ法人の利益を適切に圧縮。適正な金額を設定することで税負担を軽減します。</p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">02</span>
+                            <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-2 py-0.5 rounded">効果：高</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=600&q=80" alt="決算賞与の活用" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">決算賞与の活用</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">期末までに支給額を通知・未払計上することで、当期の損金算入が認められる定番かつ効果的な手法。</p>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">03</span>
+                            <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-2 py-0.5 rounded">効果：高</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80" alt="事前確定届出給与" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">事前確定届出給与</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">税務署への事前届出により、役員に対しても賞与を支給し損金算入が可能になる統制手法。</p>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">04</span>
+                            <span class="text-xs text-blue-700 font-semibold bg-blue-50 px-2 py-0.5 rounded">効果：中</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="少額減価償却資産の特例" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">少額減価償却資産の特例</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">30万円未満の備品やPCなどを一括で損金計上できる中小企業向けの特例制度（年限度額300万円）。</p>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">05</span>
+                            <span class="text-xs text-amber-700 font-semibold bg-amber-50 px-2 py-0.5 rounded">リスク管理</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80" alt="経営セーフティ共済" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">経営セーフティ共済</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">掛金を損金算入可能。2024年10月の法改正により再加入制限があるため、中長期の計画的活用が必須。</p>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">06</span>
+                            <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-2 py-0.5 rounded">効果：高</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=80" alt="法人向け保険の活用" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">法人向け保険の活用</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">万が一の保障を確保しつつ保険料を経費計上。財務健全性と福利厚生を同時に実現します。</p>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">07</span>
+                            <span class="text-xs text-blue-700 font-semibold bg-blue-50 px-2 py-0.5 rounded">効果：中</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=600&q=80" alt="広告宣伝費の前倒し" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">広告宣伝費の前倒し</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">必要な広告費を前もって支出することで当期分の損金として計上（翌期分は前払費用に注意）。</p>
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">08</span>
+                            <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-2 py-0.5 rounded">効果：高</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80" alt="オペレーティングリース" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">オペレーティングリース</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">初期投資を抑えつつリース料を損金算入。設備の定期的な切り替えもスムーズに行えます。</p>
+                    </div>
+                </div>
+
+                <!-- 9 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">09</span>
+                            <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-2 py-0.5 rounded">効果：高</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80" alt="賃上げ促進税制" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">賃上げ促進税制</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">従業員の給与支給額増加に伴い、法人税から直接税額控除を受けられる優遇制度。</p>
+                    </div>
+                </div>
+
+                <!-- 10 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">10</span>
+                            <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-2 py-0.5 rounded">効果：高</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80" alt="設備投資減税（経営強化）" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">設備投資減税（経営強化）</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">対象設備の導入により即時償却や税額控除の適用を受けキャッシュアウトを抑制。</p>
+                    </div>
+                </div>
+
+                <!-- 11 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">11</span>
+                            <span class="text-xs text-blue-700 font-semibold bg-blue-50 px-2 py-0.5 rounded">効果：中</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?auto=format&fit=crop&w=600&q=80" alt="決算月の変更" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">決算月の変更</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">業績の波や資金繰りサイクルに合わせ決算月を変更し、納税タイミングを最適化。</p>
+                    </div>
+                </div>
+
+                <!-- 12 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">12</span>
+                            <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-2 py-0.5 rounded">効果：高</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=600&q=80" alt="社宅制度の導入" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">社宅制度の導入</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">法人名義で社宅を契約し家賃を経費計上。個人の所得税負担を軽減し実質手取りを向上。</p>
+                    </div>
+                </div>
+
+                <!-- 13 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">13</span>
+                            <span class="text-xs text-blue-700 font-semibold bg-blue-50 px-2 py-0.5 rounded">効果：中</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80" alt="不要在庫の処分" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">不要在庫の処分</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">デッドストックの廃棄や評価損計上により、資産適正化と当期損金算入を同時に実現。</p>
+                    </div>
+                </div>
+
+                <!-- 14 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">14</span>
+                            <span class="text-xs text-emerald-700 font-semibold bg-emerald-50 px-2 py-0.5 rounded">効果：高</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=600&q=80" alt="短期前払費用の特例" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">短期前払費用の特例</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">家賃や保守料などを1年分まとめて前払いし当期損金にする決算対策の定番手法。</p>
+                    </div>
+                </div>
+
+                <!-- 15 -->
+                <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:border-slate-300 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-[10px] font-bold bg-slate-900 text-white px-2.5 py-0.5 rounded">15</span>
+                            <span class="text-xs text-purple-700 font-semibold bg-purple-50 px-2 py-0.5 rounded">効果：特大</span>
+                        </div>
+                        <div class="w-full h-32 rounded-xl overflow-hidden mb-4 bg-slate-200">
+                            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=600&q=80" alt="企業版ふるさと納税" class="w-full h-full object-cover">
+                        </div>
+                        <h4 class="text-base font-bold text-slate-900 mb-2">企業版ふるさと納税</h4>
+                        <p class="text-slate-600 text-xs leading-relaxed">地方創生プロジェクトへの寄附により法人税等から最大約9割の税額控除。</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-20 bg-slate-900 text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
+                <span class="bg-blue-500/20 text-blue-300 text-xs font-bold px-3 py-1 rounded-full border border-blue-400/30">FLAGSHIP PRODUCTS & INVESTMENTS</span>
+                <h2 class="text-3xl font-bold">弊社がご提案する主力プロダクト・事業投資プラン</h2>
+                <p class="text-slate-300 text-sm sm:text-base font-light">
+                    上記の15大対策は基礎知識となりますが、さらに大きな利益圧縮と将来の資産形成を同時に狙う経営者様へ、私たちが自信を持ってご提案している主力プランをご紹介します。
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Product 1: AI Beacon -->
+                <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-8 sm:p-10 flex flex-col justify-between shadow-2xl border border-blue-500/30 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-blue-600 text-white text-xs font-bold px-4 py-1.5 rounded-bl-2xl uppercase tracking-wider">主力商品①</div>
+                    <div class="space-y-6 pt-2">
+                        <div class="w-full h-44 rounded-2xl overflow-hidden mb-4 shadow-md">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=700&q=80" alt="AI Beacon IoTデバイス" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <span class="text-xs text-blue-400 font-semibold uppercase tracking-wider">IoTデバイス活用スキーム</span>
+                            <h3 class="text-2xl sm:text-3xl font-bold mt-1">AI Beacon（AIビーコン）導入パッケージ</h3>
+                        </div>
+                        <p class="text-slate-300 text-sm leading-relaxed font-light">
+                            最先端のAIビーコン端末を活用し、店舗・オフィスの動線解析やマーケティングデータを自動収集。高額な初期設備投資費用として一括損金算入（または中小企業経営強化税制の活用）を狙いながら、将来の収益基盤を強化する今期最も選ばれているスマート投資スキームです。
+                        </p>
+                        <ul class="space-y-2.5 text-sm text-slate-200 pt-2 border-t border-slate-700">
+                            <li class="flex items-center"><span class="text-blue-400 mr-2">✓</span> 初期投資の効率的な損金計上</li>
+                            <li class="flex items-center"><span class="text-blue-400 mr-2">✓</span> リアル店舗・オフィスのDX推進</li>
+                            <li class="flex items-center"><span class="text-blue-400 mr-2">✓</span> 専門チームによる設置・データ連携サポート</li>
+                        </ul>
+                    </div>
+                    <div class="pt-8">
+                        <button onclick="selectProductPlan('AI Beacon導入パッケージについて詳しく知りたい')" class="w-full text-center bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3.5 rounded-xl shadow-lg transition text-sm cursor-pointer">
+                            AI Beaconプランについて相談する
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 2: GPU Server Tax Strategy -->
+                <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-8 sm:p-10 flex flex-col justify-between shadow-2xl border border-teal-500/30 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-teal-600 text-white text-xs font-bold px-4 py-1.5 rounded-bl-2xl uppercase tracking-wider">法人税1,000万円以上の方へ</div>
+                    <div class="space-y-6 pt-2">
+                        <div class="w-full h-44 rounded-2xl overflow-hidden mb-4 shadow-md bg-slate-950 flex items-center justify-center">
+                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=700&q=80" alt="GPUサーバー専用データセンター" class="w-full h-full object-cover opacity-90">
+                        </div>
+                        <div>
+                            <span class="text-xs text-teal-400 font-semibold uppercase tracking-wider">中小企業特化の税金対策</span>
+                            <h3 class="text-2xl sm:text-3xl font-bold mt-1">GPUサーバーを活用したAI・データセンター投資</h3>
+                        </div>
+                        <!-- Key metrics badges -->
+                        <div class="grid grid-cols-3 gap-2 py-2">
+                            <div class="bg-teal-950/60 border border-teal-500/30 rounded-xl p-2.5 text-center">
+                                <span class="text-[10px] text-teal-300 block font-bold">時流適応</span>
+                                <span class="text-xs font-bold text-white">GPU投資</span>
+                            </div>
+                            <div class="bg-teal-950/60 border border-teal-500/30 rounded-xl p-2.5 text-center">
+                                <span class="text-[10px] text-teal-300 block font-bold">中小企業経営強化</span>
+                                <span class="text-xs font-bold text-white">即時償却可能</span>
+                            </div>
+                            <div class="bg-teal-950/60 border border-teal-500/30 rounded-xl p-2.5 text-center">
+                                <span class="text-[10px] text-teal-300 block font-bold">目標利回り</span>
+                                <span class="text-xs font-bold text-white">5年利回り120%</span>
+                            </div>
+                        </div>
+                        <p class="text-slate-300 text-sm leading-relaxed font-light">
+                            AI市場の急拡大に伴い高まるGPUサーバー需要を活用。中小企業経営強化税制により購入資産の即時償却を狙いながら、クラウドサービスとしての第三者提供による新たな事業収益を創出します。販売・導入からデータセンター運営・ファイナンスまでワンストップでサポートいたします。
+                        </p>
+                        <ul class="space-y-2.5 text-sm text-slate-200 pt-2 border-t border-slate-700">
+                            <li class="flex items-center"><span class="text-teal-400 mr-2">✓</span> 中小企業経営強化税制による即時償却</li>
+                            <li class="flex items-center"><span class="text-teal-400 mr-2">✓</span> AI特化型データセンターで収益化</li>
+                            <li class="flex items-center"><span class="text-teal-400 mr-2">✓</span> 販売・運用・ファイナンスをワンストップ支援</li>
+                        </ul>
+                    </div>
+                    <div class="pt-8">
+                        <button onclick="selectProductPlan('GPUサーバーを活用したAI・データセンター投資について詳しく知りたい')" class="w-full text-center bg-teal-600 hover:bg-teal-500 text-white font-semibold py-3.5 rounded-xl shadow-lg transition text-sm cursor-pointer">
+                            GPUサーバー投資プランについて相談する
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
+                <span class="bg-blue-50 text-corporate-600 text-xs font-bold px-3 py-1 rounded-full border border-blue-200">OUR STRENGTHS</span>
+                <h2 class="text-3xl font-bold text-slate-900">私たちが選ばれる3つの理由</h2>
+                <p class="text-slate-600 text-sm">単なる表面的な節税ではなく、企業の成長と財務強化を同時に実現するサポート体制。</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-xs">
+                    <div class="w-12 h-12 bg-blue-50 text-corporate-600 rounded-2xl flex items-center justify-center font-bold text-lg mb-6 border border-blue-100">01</div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">豊富な15大手法の知識と網羅的提案</h3>
+                    <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">王道の15大対策をすべて網羅し、貴社の業種や決算月に合わせて最適な組み合わせをオーダーメイドで構築します。</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-xs">
+                    <div class="w-12 h-12 bg-blue-50 text-corporate-600 rounded-2xl flex items-center justify-center font-bold text-lg mb-6 border border-blue-100">02</div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">AI Beacon等による攻めの事業投資</h3>
+                    <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">ただお金を減らすだけの節税ではなく、将来の収益を生み出すITデバイス・クラウドへの戦略的投資を推進します。</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-xs">
+                    <div class="w-12 h-12 bg-blue-50 text-corporate-600 rounded-2xl flex items-center justify-center font-bold text-lg mb-6 border border-blue-100">03</div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">専門家チームによる安心の実行サポート</h3>
+                    <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">税務上のリスク管理を徹底し、実行から導入後の運用・税理士連携まで一気通貫でサポートいたします。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="flow" class="py-20 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-3 mb-16">
+                <h2 class="text-xs font-bold tracking-widest text-corporate-600 uppercase">CONVERSION FLOW</h2>
+                <h3 class="text-2xl sm:text-3xl font-bold text-slate-900">ご相談から導入までの流れ</h3>
+                <p class="text-slate-600 text-sm">専門家チームによるヒアリングを通じて、最適なプランをご提案。</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 shadow-xs">
+                    <div class="text-2xl font-black text-corporate-600 mb-2">01</div>
+                    <h4 class="text-base font-bold text-slate-900 mb-1">無料シミュレーション</h4>
+                    <p class="text-slate-600 text-xs leading-relaxed">決算月や利益予測をもとに節税ポテンシャルを簡易診断。</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 shadow-xs">
+                    <div class="text-2xl font-black text-corporate-600 mb-2">02</div>
+                    <h4 class="text-base font-bold text-slate-900 mb-1">個別ヒアリング</h4>
+                    <p class="text-slate-600 text-xs leading-relaxed">貴社の財務課題やAI Beaconなどの導入ニーズを確認。</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 shadow-xs">
+                    <div class="text-2xl font-black text-corporate-600 mb-2">03</div>
+                    <h4 class="text-base font-bold text-slate-900 mb-1">オーダーメイド提案</h4>
+                    <p class="text-slate-600 text-xs leading-relaxed">15大手法と主力プロダクトを組み合わせた最適プランを提示。</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 shadow-xs">
+                    <div class="text-2xl font-black text-corporate-600 mb-2">04</div>
+                    <h4 class="text-base font-bold text-corporate-600 mb-1">実行・運用サポート</h4>
+                    <p class="text-slate-600 text-xs leading-relaxed">導入手続きから税理士連携まで徹底サポートし成果を実現。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-slate-900 text-white relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8">
+            <div class="space-y-3">
+                <h2 class="text-3xl font-bold">法人税対策・主力プロダクトのご相談</h2>
+                <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto font-light">
+                    「AI Beaconパッケージについて詳しく知りたい」「決算までの利益圧縮策を検討したい」など、まずはお気軽にお問い合わせください。
+                </p>
+            </div>
+            <form onsubmit="event.preventDefault(); showMsgBox();" class="bg-white text-slate-800 p-8 sm:p-10 rounded-3xl shadow-2xl text-left space-y-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-2">会社名</label>
+                        <input type="text" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-corporate-600 focus:outline-none" placeholder="株式会社〇〇">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-2">ご担当者様のお名前</label>
+                        <input type="text" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-corporate-600 focus:outline-none" placeholder="山田 太郎">
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-2">メールアドレス</label>
+                        <input type="email" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-corporate-600 focus:outline-none" placeholder="sample@company.co.jp">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-700 uppercase mb-2">電話番号</label>
+                        <input type="tel" required class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-corporate-600 focus:outline-none" placeholder="03-0000-0000">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 uppercase mb-2">ご興味のあるプラン・ご相談内容</label>
+                    <select id="contactTopic" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-corporate-600 focus:outline-none mb-3">
+                        <option value="AI Beacon導入パッケージについて詳しく知りたい">AI Beacon導入パッケージについて詳しく知りたい</option>
+                        <option value="GPUサーバーを活用したAI・データセンター投資について詳しく知りたい">GPUサーバーを活用したAI・データセンター投資について詳しく知りたい</option>
+                        <option value="15大節税対策全般について相談したい">15大節税対策全般について相談したい</option>
+                        <option value="その他のお問い合わせ">その他のお問い合わせ・個別相談</option>
+                    </select>
+                    <textarea rows="3" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-corporate-600 focus:outline-none" placeholder="決算月や直近の利益予測、その他ご要望があればご記載ください。"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-xl shadow-lg transition text-base cursor-pointer">
+                    無料で今すぐ相談・資料請求を送信する
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-800 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+            <div class="flex items-center space-x-3">
+                <span class="text-white font-bold">法人税節税対策コンサルティング事務局</span>
+                <span>© 2026 All Rights Reserved.</span>
+            </div>
+            <div class="flex space-x-6">
+                <button onclick="openModal('company')" class="hover:text-white transition cursor-pointer">運営会社</button>
+                <button onclick="openModal('terms')" class="hover:text-white transition cursor-pointer">利用規約</button>
+                <button onclick="openModal('privacy')" class="hover:text-white transition cursor-pointer">プライバシーポリシー</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Dialog -->
+    <div id="modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-xs hidden">
+        <div class="bg-white rounded-3xl max-w-lg w-full mx-4 p-8 relative shadow-2xl text-slate-800">
+            <button onclick="closeModal()" class="absolute top-6 right-6 text-slate-400 hover:text-slate-600 font-bold text-xl cursor-pointer">✕</button>
+            <div id="modalContent" class="space-y-4"></div>
+        </div>
+    </div>
+
+    <!-- Success Message Dialog -->
+    <div id="msgBox" class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-xs hidden">
+        <div class="bg-white rounded-3xl max-w-md w-full mx-4 p-8 text-center space-y-4 shadow-2xl text-slate-800">
+            <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto text-xl font-bold">✓</div>
+            <h3 class="text-xl font-bold text-slate-900">送信が完了しました</h3>
+            <p class="text-slate-600 text-xs sm:text-sm">お問い合わせいただきありがとうございます。担当者より折り返しご連絡いたします。</p>
+            <button onclick="closeMsgBox()" class="w-full bg-corporate-600 text-white font-semibold py-3 rounded-xl cursor-pointer text-sm">閉じる</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        function showMsgBox() {
+            document.getElementById('msgBox').classList.remove('hidden');
+        }
+        function closeMsgBox() {
+            document.getElementById('msgBox').classList.add('hidden');
+        }
+
+        function selectProductPlan(planName) {
+            const selectElem = document.getElementById('contactTopic');
+            let found = false;
+            for (let i = 0; i < selectElem.options.length; i++) {
+                if (selectElem.options[i].value === planName) {
+                    selectElem.selectedIndex = i;
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) {
+                const opt = document.createElement('option');
+                opt.value = planName;
+                opt.text = planName;
+                selectElem.add(opt);
+                selectElem.value = planName;
+            }
+            const contactSection = document.getElementById('contact');
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        const modalData = {
+            company: {
+                title: "運営会社情報",
+                body: "【社名】法人税節税対策コンサルティング運営事務局<br>【所在地】東京都千代田区丸の内1-1-1<br>【事業内容】法人税節税コンサルティングおよびAI Beacon・財務戦略サポート"
+            },
+            terms: {
+                title: "利用規約",
+                body: "本サービスをご利用いただくにあたっての規約です。提供されるシミュレーション情報は一般的な税制に基づくものであり、最終的な申告につきましては顧問税理士様等とご相談の上ご判断ください。"
+            },
+            privacy: {
+                title: "プライバシーポリシー",
+                body: "当社はお客様の個人情報を厳重に管理し、本サービスに関するご連絡およびコンサルティング業務以外の目的では一切使用いたしません。"
+            }
+        };
+
+        function openModal(type) {
+            const data = modalData[type];
+            document.getElementById('modalContent').innerHTML = `
+                <h3 class="text-xl font-bold text-slate-900">${data.title}</h3>
+                <div class="text-slate-600 leading-relaxed text-xs sm:text-sm pt-2">${data.body}</div>
+            `;
+            document.getElementById('modal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
